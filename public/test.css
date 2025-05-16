@@ -1,0 +1,756 @@
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Overpass';
+  font-style: normal;
+  font-weight: 900;
+  font-display: block;
+  src: url(http://20.208.131.110:9001/internal/gfonts/font/overpass/v16/qFda35WCmI96Ajtm83upeyoaX6QPnlo6VfTbM5qKhcc.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Overpass';
+  font-style: normal;
+  font-weight: 900;
+  font-display: block;
+  src: url(http://20.208.131.110:9001/internal/gfonts/font/overpass/v16/qFda35WCmI96Ajtm83upeyoaX6QPnlo6VfTbOpqKhcc.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Overpass';
+  font-style: normal;
+  font-weight: 900;
+  font-display: block;
+  src: url(http://20.208.131.110:9001/internal/gfonts/font/overpass/v16/qFda35WCmI96Ajtm83upeyoaX6QPnlo6VfTbMZqKhcc.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Overpass';
+  font-style: normal;
+  font-weight: 900;
+  font-display: block;
+  src: url(http://20.208.131.110:9001/internal/gfonts/font/overpass/v16/qFda35WCmI96Ajtm83upeyoaX6QPnlo6VfTbMJqKhcc.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Overpass';
+  font-style: normal;
+  font-weight: 900;
+  font-display: block;
+  src: url(http://20.208.131.110:9001/internal/gfonts/font/overpass/v16/qFda35WCmI96Ajtm83upeyoaX6QPnlo6VfTbPpqK.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* latin-ext */
+@font-face {
+  font-family: 'Red Hat Display';
+  font-style: normal;
+  font-weight: 800;
+  font-display: block;
+  src: url(http://20.208.131.110:9001/internal/gfonts/font/redhatdisplay/v20/8vIf7wUr0m80wwYf0QCXZzYzUoTK8RZQvRd-D1NYbuyRQkEz-Eec.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Red Hat Display';
+  font-style: normal;
+  font-weight: 800;
+  font-display: block;
+  src: url(http://20.208.131.110:9001/internal/gfonts/font/redhatdisplay/v20/8vIf7wUr0m80wwYf0QCXZzYzUoTK8RZQvRd-D1NYbuyRQk8z-A.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Overpass';
+  font-style: normal;
+  font-weight: 800;
+  font-display: block;
+  src: url(http://20.208.131.110:9001/internal/gfonts/font/overpass/v16/qFda35WCmI96Ajtm83upeyoaX6QPnlo6fPTbM5qKhcc.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Overpass';
+  font-style: normal;
+  font-weight: 800;
+  font-display: block;
+  src: url(http://20.208.131.110:9001/internal/gfonts/font/overpass/v16/qFda35WCmI96Ajtm83upeyoaX6QPnlo6fPTbOpqKhcc.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Overpass';
+  font-style: normal;
+  font-weight: 800;
+  font-display: block;
+  src: url(http://20.208.131.110:9001/internal/gfonts/font/overpass/v16/qFda35WCmI96Ajtm83upeyoaX6QPnlo6fPTbMZqKhcc.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Overpass';
+  font-style: normal;
+  font-weight: 800;
+  font-display: block;
+  src: url(http://20.208.131.110:9001/internal/gfonts/font/overpass/v16/qFda35WCmI96Ajtm83upeyoaX6QPnlo6fPTbMJqKhcc.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Overpass';
+  font-style: normal;
+  font-weight: 800;
+  font-display: block;
+  src: url(http://20.208.131.110:9001/internal/gfonts/font/overpass/v16/qFda35WCmI96Ajtm83upeyoaX6QPnlo6fPTbPpqK.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* cyrillic */
+@font-face {
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 800;
+  font-display: block;
+  src: url(http://20.208.131.110:9001/internal/gfonts/font/jost/v18/92zPtBhPNqw79Ij1E865zBUv7mwjIjVFNIg8mg.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 800;
+  font-display: block;
+  src: url(http://20.208.131.110:9001/internal/gfonts/font/jost/v18/92zPtBhPNqw79Ij1E865zBUv7mwjIjVPNIg8mg.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 800;
+  font-display: block;
+  src: url(http://20.208.131.110:9001/internal/gfonts/font/jost/v18/92zPtBhPNqw79Ij1E865zBUv7mwjIjVBNIg.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+
+html, body {
+  margin: 0;
+  min-height: 100%;
+  min-width: 100%;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  min-height: 100vh;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.text-node { background-clip: text !important; -webkit-background-clip: text !important; }
+
+/* Desktop */
+.desktop-31ec13982687 {
+  position: relative;
+  width: 1920px;
+  height: 1080px;
+  background: #111115FF;
+  border-radius: 0px 0px 0px 0px;
+  overflow: hidden;
+  z-index: 0;
+}
+
+/* Group */
+.group-31f89a652f55 {
+  position: absolute;
+  left: 399px;
+  top: 350px;
+  width: 1121px;
+  height: 387px;
+}
+
+/* Group */
+.group-31f89743d5eb {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 400px;
+  height: 335px;
+}
+
+/* Group */
+.group-31f88ec307e3 {
+  position: absolute;
+  left: 0px;
+  top: 305px;
+  width: 200px;
+  height: 30px;
+}
+
+/* Group */
+.group-31f803d040c1 {
+  position: absolute;
+  left: 115px;
+  top: 0px;
+  width: 85px;
+  height: 30px;
+}
+
+/* Discord */
+.discord-31f71afc8089 {
+  position: absolute;
+  left: 28px;
+  top: 9px;
+  width: 52px;
+  height: 12px;
+}
+.discord-31f71afc8089 .root-0 {
+  
+  
+  display: flex;
+  white-space: break-spaces;
+  align-items: flex-start;
+}
+.discord-31f71afc8089 .root-0-paragraph-set-0 {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: inherit;
+  min-width: 100%;
+  margin-right: 1px;
+  vertical-align: top;
+}
+.discord-31f71afc8089 .root-0-paragraph-set-0-paragraph-0 {
+  font-size: 0;
+  line-height: 1.2;
+  margin: 0;
+  text-align: left;
+}
+.discord-31f71afc8089 .root-0-paragraph-set-0-paragraph-0-text-0 {
+  color: rgba(88, 101, 242, 1);
+  text-transform: none;
+  
+  line-break: auto;
+  overflow-wrap: initial;
+  white-space: break-spaces;
+  font-size: 14px;
+  text-rendering: geometricPrecision;
+  caret-color: rgba(88, 101, 242, 1);
+  text-decoration: none;
+  letter-spacing: 0px;
+  font-family: "Overpass";
+  font-style: normal;
+  font-weight: 900;
+}
+
+/* svg */
+.svg-31f25a50bb12 > svg {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  transform: translate(0px,0px);
+}
+.svg-31f25a50bb12 {
+  position: absolute;
+  left: 6px;
+  top: 7.98px;
+  width: 19.13px;
+  height: 14.02px;
+}
+
+/* svg-path */
+.svgpath-31f25a515b5b > svg {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  transform: translate(0px,0px);
+}
+.svgpath-31f25a515b5b {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 19.13px;
+  height: 13.72px;
+}
+
+/* base-background */
+.basebackg-31f25a50c13a > svg {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  transform: translate(0px,0px);
+}
+.basebackg-31f25a50c13a {
+  position: absolute;
+  left: 0px;
+  top: 0.02px;
+  width: 19px;
+  height: 14px;
+  border-radius: 0px 0px 0px 0px;
+}
+
+/* Rectangle */
+.rectangle-31f23dad83e8 > svg {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  transform: translate(0px,0px);
+}
+.rectangle-31f23dad83e8 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 85px;
+  height: 30px;
+}
+
+/* Group */
+.group-31f703da1533 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 83px;
+  height: 30px;
+}
+
+/* Github */
+.github-31f5ed138826 {
+  position: absolute;
+  left: 29px;
+  top: 8px;
+  width: 48px;
+  height: 14px;
+}
+.github-31f5ed138826 .root-0 {
+  
+  
+  display: flex;
+  white-space: break-spaces;
+  align-items: flex-start;
+}
+.github-31f5ed138826 .root-0-paragraph-set-0 {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: inherit;
+  min-width: 100%;
+  margin-right: 1px;
+  vertical-align: top;
+}
+.github-31f5ed138826 .root-0-paragraph-set-0-paragraph-0 {
+  font-size: 0;
+  line-height: 1.2;
+  margin: 0;
+  text-align: left;
+}
+.github-31f5ed138826 .root-0-paragraph-set-0-paragraph-0-text-0 {
+  color: rgba(36, 41, 47, 1);
+  text-transform: none;
+  
+  line-break: auto;
+  overflow-wrap: initial;
+  white-space: break-spaces;
+  font-size: 15px;
+  text-rendering: geometricPrecision;
+  caret-color: rgba(36, 41, 47, 1);
+  text-decoration: none;
+  letter-spacing: 0px;
+  font-family: "Overpass";
+  font-style: normal;
+  font-weight: 900;
+}
+
+/* svg */
+.svg-31f24f8c55e5 > svg {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  transform: translate(0px,0px);
+}
+.svg-31f24f8c55e5 {
+  position: absolute;
+  left: 6px;
+  top: 4px;
+  width: 22px;
+  height: 22px;
+}
+
+/* svg-defs */
+.svgdefs-31f24f8e1e61 > svg {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  transform: translate(0px,0px);
+}
+.svgdefs-31f24f8e1e61 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 22px;
+  height: 22px;
+}
+
+/* svg-g */
+.svgg-31f24f8d47d3 > svg {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  transform: translate(0px,0px);
+}
+.svgg-31f24f8d47d3 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 22px;
+  height: 21.63px;
+}
+
+/* svg-path */
+.svgpath-31f24f8de0a2 > svg {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  transform: translate(0px,0px);
+}
+.svgpath-31f24f8de0a2 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 22px;
+  height: 21.63px;
+}
+
+/* base-background */
+.basebackg-31f24f8d16c2 > svg {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  transform: translate(0px,0px);
+}
+.basebackg-31f24f8d16c2 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 22px;
+  height: 22px;
+  border-radius: 0px 0px 0px 0px;
+  display: none;
+}
+
+/* Rectangle */
+.rectangle-31f278bd71b7 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 83px;
+  height: 30px;
+  background: #ffffffFF;
+  border-radius: 10px 10px 10px 10px;
+}
+
+/* Group */
+.group-31f87fb925f6 {
+  position: absolute;
+  left: 0px;
+  top: 140px;
+  width: 400px;
+  height: 110px;
+}
+
+/* Этот сайт служит changelog-центром проекта, источником обновлений, идеями для блога и просто местом жизни и веселья. */
+.31f2120370f6 {
+  position: absolute;
+  left: 0px;
+  top: 55px;
+  width: 400px;
+  height: 55px;
+}
+.31f2120370f6 .root-0 {
+  
+  
+  display: flex;
+  white-space: break-spaces;
+  align-items: flex-start;
+}
+.31f2120370f6 .root-0-paragraph-set-0 {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: inherit;
+  min-width: 100%;
+  margin-right: 1px;
+  vertical-align: top;
+}
+.31f2120370f6 .root-0-paragraph-set-0-paragraph-0 {
+  font-size: 0;
+  line-height: 1.2;
+  margin: 0;
+  text-align: left;
+}
+.31f2120370f6 .root-0-paragraph-set-0-paragraph-0-text-0 {
+  color: rgba(84, 84, 109, 1);
+  text-transform: none;
+  
+  line-break: auto;
+  overflow-wrap: initial;
+  white-space: break-spaces;
+  font-size: 15px;
+  text-rendering: geometricPrecision;
+  caret-color: rgba(84, 84, 109, 1);
+  text-decoration: none;
+  letter-spacing: 0px;
+  font-family: "Overpass";
+  font-style: normal;
+  font-weight: 900;
+}
+
+/* Старт здесь! */
+.31f1f96ee4b7 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 290px;
+  height: 56px;
+}
+.31f1f96ee4b7 .root-0 {
+  
+  
+  display: flex;
+  white-space: break-spaces;
+  align-items: flex-start;
+}
+.31f1f96ee4b7 .root-0-paragraph-set-0 {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: inherit;
+  
+  margin-right: 1px;
+  vertical-align: top;
+}
+.31f1f96ee4b7 .root-0-paragraph-set-0-paragraph-0 {
+  font-size: 0;
+  line-height: 1.2;
+  margin: 0;
+  text-align: left;
+}
+.31f1f96ee4b7 .root-0-paragraph-set-0-paragraph-0-text-0 {
+  color: rgba(255, 255, 255, 1);
+  text-transform: none;
+  
+  line-break: auto;
+  overflow-wrap: initial;
+  white-space: pre;
+  font-size: 46px;
+  text-rendering: geometricPrecision;
+  caret-color: rgba(255, 255, 255, 1);
+  text-decoration: none;
+  letter-spacing: 0px;
+  font-family: "Overpass";
+  font-style: normal;
+  font-weight: 900;
+}
+
+/* Group */
+.group-31f84b36510e {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 203px;
+  height: 66px;
+}
+
+/* Group */
+.group-31f843ec52f4 {
+  position: absolute;
+  left: 77px;
+  top: 32.75px;
+  width: 75px;
+  height: 20px;
+}
+
+/* LEGACY */
+.legacy-31efc12fd267 {
+  position: absolute;
+  left: 12.5px;
+  top: 2.5px;
+  width: 50px;
+  height: 15px;
+}
+.legacy-31efc12fd267 .root-0 {
+  
+  
+  display: flex;
+  white-space: break-spaces;
+  align-items: flex-start;
+}
+.legacy-31efc12fd267 .root-0-paragraph-set-0 {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: inherit;
+  
+  margin-right: 1px;
+  vertical-align: top;
+}
+.legacy-31efc12fd267 .root-0-paragraph-set-0-paragraph-0 {
+  font-size: 0;
+  line-height: 1.2;
+  margin: 0;
+  text-align: left;
+}
+.legacy-31efc12fd267 .root-0-paragraph-set-0-paragraph-0-text-0 {
+  color: rgba(255, 255, 255, 1);
+  text-transform: none;
+  
+  line-break: auto;
+  overflow-wrap: initial;
+  white-space: pre;
+  font-size: 12px;
+  text-rendering: geometricPrecision;
+  caret-color: rgba(255, 255, 255, 1);
+  text-decoration: none;
+  letter-spacing: 0px;
+  font-family: "Red Hat Display";
+  font-style: normal;
+  font-weight: 800;
+}
+
+/* Rectangle */
+.rectangle-31ef7b105579 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 75px;
+  height: 20px;
+  background: #4756a2FF;
+  border-radius: 17px 17px 17px 17px;
+}
+
+/* Dashboard */
+.dashboard-31eec3b75fa2 {
+  position: absolute;
+  left: 76px;
+  top: 0px;
+  width: 127px;
+  height: 30px;
+}
+.dashboard-31eec3b75fa2 .root-0 {
+  
+  
+  display: flex;
+  white-space: break-spaces;
+  align-items: flex-start;
+}
+.dashboard-31eec3b75fa2 .root-0-paragraph-set-0 {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: inherit;
+  
+  margin-right: 1px;
+  vertical-align: top;
+}
+.dashboard-31eec3b75fa2 .root-0-paragraph-set-0-paragraph-0 {
+  font-size: 0;
+  line-height: 1.2;
+  margin: 0;
+  text-align: left;
+}
+.dashboard-31eec3b75fa2 .root-0-paragraph-set-0-paragraph-0-text-0 {
+  color: rgba(255, 255, 255, 1);
+  text-transform: none;
+  
+  line-break: auto;
+  overflow-wrap: initial;
+  white-space: pre;
+  font-size: 25px;
+  text-rendering: geometricPrecision;
+  caret-color: rgba(255, 255, 255, 1);
+  text-decoration: none;
+  letter-spacing: 0px;
+  font-family: "Overpass";
+  font-style: normal;
+  font-weight: 800;
+}
+
+/* Group 3 1 */
+.group-3-1-31ee3a287387 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 66px;
+  height: 66px;
+  background: url(http://20.208.131.110:9001/assets/by-file-media-id/8e57249d-5398-80d4-8006-31ee11ffb60d) no-repeat center center / cover;
+  border-radius: 0px 0px 0px 0px;
+}
+
+/* Group */
+.group-31f88614c28f {
+  position: absolute;
+  left: 743px;
+  top: 0px;
+  width: 378px;
+  height: 387px;
+}
+
+/* Dashcord — ироничный Discord-кликер про жизнь СНГ-серверов, реализованный как Web Activity и open source. */
+.dashcord-31f0a0112e89 {
+  position: absolute;
+  left: 0px;
+  top: 340px;
+  width: 341px;
+  height: 47px;
+}
+.dashcord-31f0a0112e89 .root-0 {
+  
+  
+  display: flex;
+  white-space: break-spaces;
+  align-items: flex-start;
+}
+.dashcord-31f0a0112e89 .root-0-paragraph-set-0 {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: inherit;
+  min-width: 100%;
+  margin-right: 1px;
+  vertical-align: top;
+}
+.dashcord-31f0a0112e89 .root-0-paragraph-set-0-paragraph-0 {
+  font-size: 0;
+  line-height: 1.2;
+  margin: 0;
+  text-align: left;
+}
+.dashcord-31f0a0112e89 .root-0-paragraph-set-0-paragraph-0-text-0 {
+  color: rgba(84, 84, 109, 1);
+  text-transform: none;
+  
+  line-break: auto;
+  overflow-wrap: initial;
+  white-space: break-spaces;
+  font-size: 13px;
+  text-rendering: geometricPrecision;
+  caret-color: rgba(84, 84, 109, 1);
+  text-decoration: none;
+  letter-spacing: 0px;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 800;
+}
+
+/* image */
+.image-31f0396abd18 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 378px;
+  height: 335px;
+  background: url(http://20.208.131.110:9001/assets/by-file-media-id/8e57249d-5398-80d4-8006-31f039c92e09) no-repeat center center / cover;
+  border-radius: 15px 15px 15px 15px;
+}

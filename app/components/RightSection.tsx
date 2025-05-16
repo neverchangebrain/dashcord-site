@@ -5,7 +5,7 @@ export default function RightSection() {
     <div className="w-full lg:max-w-[378px] flex flex-col">
       <div className="relative w-full aspect-[378/335] rounded-[15px] overflow-hidden">
         <Image
-          src="http://20.208.131.110:9001/assets/by-file-media-id/8e57249d-5398-80d4-8006-31f039c92e09"
+          src="/cat.png"
           alt="Dashcord preview image"
           fill
           style={{ objectFit: "cover" }}

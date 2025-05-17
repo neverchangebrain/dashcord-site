@@ -1,23 +1,8 @@
 import type { Metadata } from "next";
-import localFont from "next/font/local";
+import { fontVars } from "@/lib/fonts";
 import { LAYOUT_DESCRIPTION, LAYOUT_TITLE } from "@/lib/constants";
-
+import VisitorCounter from "@/app/components/VisitorCounter";
 import "./globals.css";
-
-const jost = localFont({
-  src: "./fonts/JOST.ttf",
-  variable: "--font-jost",
-});
-
-const overpass = localFont({
-  src: "./fonts/OVERPASS.ttf",
-  variable: "--font-overpass",
-});
-
-const redhat = localFont({
-  src: "./fonts/REDHATDISPLAY.ttf",
-  variable: "--font-redhat",
-});
 
 export const metadata: Metadata = {
   title: LAYOUT_TITLE,
@@ -37,9 +22,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="ru">
-      <body
-        className={`${jost.variable} ${overpass.variable} ${redhat.variable}`}
-      >
+      <body className={fontVars}>
+        <VisitorCounter />
         {children}
       </body>
     </html>

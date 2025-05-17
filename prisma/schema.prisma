@@ -1,0 +1,17 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Visit {
+  id        Int      @id @default(autoincrement())
+  ip        String
+  visitDate DateTime
+  createdAt DateTime @default(now())
+
+  @@index([ip, visitDate])
+}

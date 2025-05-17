@@ -1,7 +1,15 @@
 import { PrismaClient } from "@prisma/client";
 
-const globalForPrisma = global as unknown as { prisma: PrismaClient };
+const isVercel = !!process.env.VERCEL;
 
-export const prisma = globalForPrisma.prisma || new PrismaClient();
+let prisma: PrismaClient;
 
-if (process.env.NODE_ENV !== "production") globalForPrisma.prisma = prisma;
+if (isVercel) {
+  prisma = new PrismaClient();
+} else {
+  const globalForPrisma = global as unknown as { prisma?: PrismaClient };
+  prisma = globalForPrisma.prisma ?? new PrismaClient();
+  if (process.env.NODE_ENV !== "production") globalForPrisma.prisma = prisma;
+}
+
+export { prisma };
